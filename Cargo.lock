@@ -1,0 +1,33 @@
+[root]
+name = "vagga"
+version = "0.1.0"
+dependencies = [
+ "argparse 0.1.0",
+ "config 0.1.0",
+ "gcc 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "quire 0.1.0",
+]
+
+[[package]]
+name = "argparse"
+version = "0.1.0"
+
+[[package]]
+name = "config"
+version = "0.1.0"
+dependencies = [
+ "quire 0.1.0",
+]
+
+[[package]]
+name = "gcc"
+version = "0.2.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "quire"
+version = "0.1.0"
+dependencies = [
+ "argparse 0.1.0",
+]
+
